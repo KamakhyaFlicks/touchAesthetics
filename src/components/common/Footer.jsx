@@ -1,270 +1,185 @@
-"use client"
-
-import { useEffect, useRef, useState } from "react"
-import { 
-  FaFacebookF, 
-  FaInstagram, 
-  FaTwitter, 
-  FaYoutube, 
-  FaMapMarkerAlt, 
-  FaPhoneAlt, 
-  FaEnvelope, 
-  FaClock,
-  FaChevronRight
-} from "react-icons/fa"
-
-import logo from "../../assets/images/logo.png"
+import { useEffect, useRef, useState } from "react";
+import logo from "../../assets/images/logo.png"; // Adjust the path as necessary
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
-  const footerRef = useRef(null)
-  const [isVisible, setIsVisible] = useState(false)
+  const footerRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const [email, setEmail] = useState("");
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => {
-        const [entry] = entries
-        if (entry.isIntersecting) {
-          setIsVisible(true)
-        } else {
-          // Reset animation when out of view for repeat effect
-          setIsVisible(false)
-        }
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
       },
       {
         threshold: 0.1,
-        rootMargin: "0px 0px -100px 0px" // Trigger a bit before the footer is fully in view
+        rootMargin: "0px 0px -50px 0px"
       }
-    )
+    );
 
-    const currentFooter = footerRef.current
+    const currentFooter = footerRef.current;
     if (currentFooter) {
-      observer.observe(currentFooter)
+      observer.observe(currentFooter);
     }
 
     return () => {
-      if (currentFooter) {
-        observer.unobserve(currentFooter)
-      }
-    }
-  }, [])
+      if (currentFooter) observer.unobserve(currentFooter);
+    };
+  }, []);
 
-  const currentYear = new Date().getFullYear()
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+    // Handle subscription logic here
+    console.log("Subscribing email:", email);
+    setEmail("");
+    // In a real application, you would send this to your backend
+  };
+
+  // Services data
+  const services = [
+    "Skin Care", "Anti-Aging", "Laser Treatments", 
+    "Hair Restoration", "Body Contouring", "Dermal Fillers"
+  ];
+
+  // Social media icons (using appropriate tailwind classes instead of FontAwesome)
+  const socialIcons = [
+    { name: "Instagram", icon: <BsInstagram/>, link: "https://www.instagram.com/toucheaesthetics/"},
+    { name: "Facebook", icon: <BsFacebook/>, link: "#" },
+    { name: "Twitter", icon: <FaSquareXTwitter/>, link:"#" },
+    { name: "YouTube", icon: <BsYoutube/>, link:"https://www.youtube.com/channel/UCwB4l3yV2IOEJvz75bf7onA" },
+  ];
 
   return (
-    <footer ref={footerRef} className="w-full bg-[white] border-t border-[#e9d5c9] pt-16 overflow-hidden shadow-xl/10">
-      {/* Top section with columns */}
-      <div className="w-full mx-auto px-4 md:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
+    <footer ref={footerRef} className="w-full bg-white border-t border-[#e9d5c9] pt-12 shadow-sm overflow-hidden">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1 - About */}
           <div 
-            className={`transition-all duration-1000 ease-out ${
+            className={`space-y-4 transition-all duration-500 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            <div className="mb-6">
-              <a href="/" className="inline-block">
-                <div className="w-50 flex items-center">
-                    <img src={logo} alt="touche Aesthetics" className="w-full mr-3" />
-                </div>
-              </a>
+            <div className="flex items-center w-45 h-20">
+              <img src={logo} alt="Touché Aesthetics Logo" className="h-full " />
             </div>
-            
-            <p className="text-zinc-900 mb-6">
-              Dedicated to enhancing your natural beauty through advanced skin and hair treatments in a serene, professional environment.
+            <p className="text-zinc-600 text-sm">
+              Enhancing your natural beauty through advanced skin and hair treatments in a serene environment.
             </p>
-            
-            <div className="flex space-x-3">
-              <a 
-                href="#" 
-                className="w-9 h-9 rounded-full bg-[#f3e8e0] hover:bg-[#c8a287] text-[#b08e75] hover:text-white flex items-center justify-center transition-colors duration-300"
-                aria-label="Facebook"
-              >
-                <FaFacebookF size={16} />
-              </a>
-              <a 
-                href="#" 
-                className="w-9 h-9 rounded-full bg-[#f3e8e0] hover:bg-[#c8a287] text-[#b08e75] hover:text-white flex items-center justify-center transition-colors duration-300"
-                aria-label="Instagram"
-              >
-                <FaInstagram size={16} />
-              </a>
-              <a 
-                href="#" 
-                className="w-9 h-9 rounded-full bg-[#f3e8e0] hover:bg-[#c8a287] text-[#b08e75] hover:text-white flex items-center justify-center transition-colors duration-300"
-                aria-label="Twitter"
-              >
-                <FaTwitter size={16} />
-              </a>
-              <a 
-                href="#" 
-                className="w-9 h-9 rounded-full bg-[#f3e8e0] hover:bg-[#c8a287] text-[#b08e75] hover:text-white flex items-center justify-center transition-colors duration-300"
-                aria-label="YouTube"
-              >
-                <FaYoutube size={16} />
-              </a>
+            <div className="flex space-x-2">
+              {socialIcons.map((platform) => (
+                <a
+                  key={platform.name}
+                  href={platform.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded-full bg-gray-900 hover:bg-gray-700 text-[#b08e75] text-white flex items-center justify-center transition-colors duration-300"
+                  aria-label={platform.name}
+                >
+                  {platform.icon}
+                </a>
+              ))}
             </div>
           </div>
           
-          {/* Column 2 - Quick Links */}
+          {/* Column 2 - Services */}
           <div 
-            className={`transition-all duration-1000 ease-out ${
+            className={`space-y-4 transition-all duration-500 delay-100 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
-            style={{ transitionDelay: "200ms" }}
           >
-            <h3 className="text-zinc-800 font-serif font-light text-lg mb-6">Quick Links</h3>
-            <ul className="space-y-3">
-              {["Home", "About Us", "Our Services", "Our Doctors", "Book Appointment", "Contact Us", "Blog", "FAQs"].map((link, index) => (
+            <h3 className="text-zinc-800 font-serif text-base">Services</h3>
+            <ul className="grid grid-cols-2 gap-2 text-sm">
+              {services.map((service, index) => (
                 <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-zinc-600 hover:text-gray-900 transition-colors duration-300 flex items-center"
+                  <a
+                    href="#"
+                    className="text-zinc-600 hover:text-[#b08e75] transition-colors duration-300 flex items-center"
                   >
-                    <FaChevronRight className="mr-2 text-xs text-zinc-600 hover:text-gray-900 " />
-                    {link}
+                    <span className="text-xs mr-1">›</span> {service}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
           
-          {/* Column 3 - Services */}
+          {/* Column 3 - Contact */}
           <div 
-            className={`transition-all duration-1000 ease-out ${
+            className={`space-y-4 transition-all duration-500 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
-            style={{ transitionDelay: "400ms" }}
           >
-            <h3 className="text-zinc-800 font-serif font-light text-lg mb-6">Our Services</h3>
-            <ul className="space-y-3">
-              {[
-                "Skin Care Treatments", 
-                "Anti-Aging Solutions", 
-                "Laser Treatments", 
-                "Hair Restoration", 
-                "Body Contouring", 
-                "Dermal Fillers", 
-                "Botox Treatment", 
-                "Chemical Peels"
-              ].map((service, index) => (
-                <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-zinc-600 hover:text-gray-900  transition-colors duration-300 flex items-center"
-                  >
-                    <FaChevronRight className="mr-2 text-xs text-zinc-600 hover:text-gray-900 " />
-                    {service}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          {/* Column 4 - Contact */}
-          <div 
-            className={`transition-all duration-1000 ease-out ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}
-            style={{ transitionDelay: "600ms" }}
-          >
-            <h3 className="text-zinc-800 font-serif font-light text-lg mb-6">Contact Us</h3>
-            <ul className="space-y-4">
+            <h3 className="text-zinc-800 font-serif text-base">Contact</h3>
+            <ul className="space-y-2 text-sm">
               <li className="flex items-start">
-                <div className="mt-1.5">
-                  <FaMapMarkerAlt className="text-zinc-600 hover:text-gray-900 " />
-                </div>
-                <span className="ml-3 text-zinc-600 hover:text-gray-900 ">
-                  A/41, South Extension Part-2, New Delhi - 110049, India
+                <span className="mt-1 text-[#b08e75]">📍</span>
+                <span className="ml-2 text-zinc-600">
+                  South Extension Part-2, New Delhi
                 </span>
               </li>
               <li className="flex items-center">
-                <FaPhoneAlt className="text-zinc-600 hover:text-gray-900 " />
-                <a href="tel:+919220546827" className="ml-3 text-zinc-600 hover:text-gray-900 transition-colors duration-300">
-                +91 9220546827
+                <span className="text-[#b08e75]">📞</span>
+                <a href="tel:+919220546827" className="ml-2 text-zinc-600 hover:text-[#b08e75]">
+                  +91 9220546827
                 </a>
               </li>
               <li className="flex items-center">
-                <FaEnvelope className="text-zinc-600 hover:text-gray-900 " />
-                <a 
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=toucheaesthetics0@gmail.com&su=Appointment%20Booking&body=Hello%20Team%2C%20I%20am%20interested%20in%20your%20services."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-3 text-zinc-600 hover:text-gray-900  transition-colors duration-300"
-                >
-                  toucheaesthetics0@gmail.com
+                <span className="text-[#b08e75]">✉️</span>
+                <a href="mailto:toucheaesthetics@gmail.com" className="ml-2 text-zinc-600 hover:text-[#b08e75] truncate">
+                  toucheaesthetics@gmail.com
                 </a>
-              </li>
-              <li className="flex items-start">
-                <div className="mt-1.5">
-                  <FaClock className="text-zinc-600 hover:text-gray-900 " />
-                </div>
-                <div className="ml-3">
-                  <p className="text-zinc-600 hover:text-gray-900 ">Mon - Fri: 10:00 AM - 8:00 PM</p>
-                  <p className="text-zinc-600 hover:text-gray-900 ">Sat - Sun: 10:00 AM - 5:00 PM</p>
-                </div>
               </li>
             </ul>
           </div>
-        </div>
-        
-        {/* Newsletter Section */}
-        <div 
-          className={`mt-16 bg-white/70 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-xl/10 transition-all duration-1000 ease-out ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          }`}
-          style={{ transitionDelay: "800ms" }}
-        >
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="mb-6 md:mb-0 md:mr-8">
-              <h3 className="text-[#b08e75] font-medium text-xl mb-2">Stay Updated</h3>
-              <p className="text-[#7d6e63]">
-                Subscribe to our newsletter for special offers and skin care tips.
-              </p>
-            </div>
-            
-            <div className="w-full md:w-auto">
-              <form className="flex flex-col sm:flex-row gap-3">
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
-                  className="px-4 py-3 rounded-md border border-[#e9d5c9] focus:outline-none focus:border-[#c8a287] bg-white min-w-0 w-full sm:w-64"
-                  required
-                />
-                <button 
-                  type="submit"
-                  className="bg-[#c8a287] hover:bg-[#b08e75] text-white px-6 py-3 rounded-md transition-colors duration-300 whitespace-nowrap"
-                >
-                  Subscribe
-                </button>
-              </form>
+          
+          {/* Column 4 - Newsletter */}
+          <div 
+            className={`space-y-4 transition-all duration-500 delay-300 ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
+          >
+            <h3 className="text-zinc-800 font-serif text-base">Subscribe</h3>
+            <p className="text-zinc-600 text-sm">Stay updated with our special offers and skin care tips.</p>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Your email"
+                className="px-3 py-2 border focus:outline-none focus:border-[#c8a287] bg-white text-sm flex-grow"
+              />
+              <button
+                onClick={handleSubscribe}
+                className="bg-gray-900 hover:bg-gray-700 text-white px-4 py-2  transition-colors duration-300 text-sm whitespace-nowrap"
+              >
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
-      </div>
-      
-      {/* Bottom bar with copyright */}
-      <div 
-        className={`mt-16 py-6 border-t border-[#e9d5c9] transition-all duration-1000 ease-out ${
-          isVisible ? "opacity-100" : "opacity-0"
-        }`}
-        style={{ transitionDelay: "1000ms" }}
-      >
-        <div className="container mx-auto px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-[#7d6e63] text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Touch Aesthetics. All rights reserved.
-            </p>
-            
-            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-[#7d6e63]">
-              <a href="#" className="hover:text-[#c8a287] transition-colors duration-300">Privacy Policy</a>
-              <a href="#" className="hover:text-[#c8a287] transition-colors duration-300">Terms of Service</a>
-              <a href="#" className="hover:text-[#c8a287] transition-colors duration-300">Cookie Policy</a>
+        
+        {/* Bottom bar with copyright */}
+        <div 
+          className={`mt-10 py-4 border-t border-[#e9d5c9] transition-all duration-500 delay-400 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        >
+          <div className="flex flex-col md:flex-row items-center justify-between text-xs text-zinc-500">
+            <p>© {currentYear} Touché Aesthetics. All rights reserved.</p>
+            <div className="flex mt-2 md:mt-0 space-x-4">
+              <a href="#" className="hover:text-[#b08e75] transition-colors duration-300">Privacy</a>
+              <a href="#" className="hover:text-[#b08e75] transition-colors duration-300">Terms</a>
+              <a href="#" className="hover:text-[#b08e75] transition-colors duration-300">Cookies</a>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

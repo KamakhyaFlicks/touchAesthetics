@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef } from "react"
 import contact from "../assets/images/contact.jpg"
+import CEO from "../assets/images/CEO.jpg";
+
 export default function About() {
   const [isVisible, setIsVisible] = useState({
     hero: false,
@@ -150,14 +152,14 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div
-              className={`transition-all duration-700 transform ${
+              className={` transition-all duration-700 transform ${
                 isVisible.story ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
               }`}
             >
               <img
-                src={contact}
+                src={CEO}
                 alt="Our clinic founder"
-                className="w-full h-auto shadow-md"
+                className="w-full shadow-md object-cover"
               />
             </div>
             <div

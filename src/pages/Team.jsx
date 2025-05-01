@@ -1,7 +1,7 @@
-"use client"
-
 import { useState, useEffect, useRef } from "react"
-
+import doctor1 from "../assets/images/doctor1.jpg"
+import doctor2 from "../assets/images/doctor2.jpg"
+import doctor3 from "../assets/images/doctor3.jpg"
 export default function Team() {
   const [isVisible, setIsVisible] = useState({
     hero: false,
@@ -57,50 +57,25 @@ export default function Team() {
       specialty: "Cosmetic Dermatology",
       experience:
         "15+ years of experience in advanced skin treatments and hair restoration. Board-certified with specialization from AIIMS.",
-      image: "/placeholder.svg?height=400&width=300",
+      image: doctor1,
     },
     {
       id: 2,
-      name: "Dr. Priya Sharma",
+      name: "Dr. Hansraj Sharma",
       title: "Senior Dermatologist",
       specialty: "Medical Dermatology",
       experience:
         "12 years of expertise in treating complex skin conditions and inflammatory disorders. Fellowship in Clinical Dermatology.",
-      image: "/placeholder.svg?height=400&width=300",
+      image: doctor2,
     },
     {
       id: 3,
-      name: "Dr. Arjun Kapoor",
+      name: "Dr. Lalit Kasana",
       title: "Hair Restoration Specialist",
       specialty: "Trichology",
       experience:
         "10+ years focused on hair loss treatments and transplantation procedures. Pioneer in PRP therapy for hair regrowth.",
-      image: "/placeholder.svg?height=400&width=300",
-    },
-    {
-      id: 4,
-      name: "Dr. Meera Patel",
-      title: "Aesthetic Physician",
-      specialty: "Non-surgical Procedures",
-      experience: "8 years specializing in non-invasive facial rejuvenation, injectables, and laser treatments.",
-      image: "/placeholder.svg?height=400&width=300",
-    },
-    {
-      id: 5,
-      name: "Dr. Vikram Mehta",
-      title: "Dermatosurgeon",
-      specialty: "Surgical Dermatology",
-      experience: "14 years of experience in dermatological surgeries, scar revision, and reconstructive procedures.",
-      image: "/placeholder.svg?height=400&width=300",
-    },
-    {
-      id: 6,
-      name: "Dr. Anjali Desai",
-      title: "Pediatric Dermatologist",
-      specialty: "Pediatric Skin Care",
-      experience:
-        "9 years dedicated to treating skin conditions in children and adolescents with a gentle, specialized approach.",
-      image: "/placeholder.svg?height=400&width=300",
+      image: doctor3,
     },
   ]
 
