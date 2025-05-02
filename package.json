@@ -14,7 +14,7 @@
     "@tailwindcss/vite": "^4.1.4",
     "aos": "^2.3.4",
     "aspect-ratio": "^2.1.5",
-    "framer-motion": "^12.8.2",
+    "framer-motion": "^12.9.4",
     "lucide-react": "^0.503.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

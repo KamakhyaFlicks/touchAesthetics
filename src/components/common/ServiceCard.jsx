@@ -1,8 +1,15 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import { Link } from "react-router-dom";
+
 
 const ServiceCard = ({ id, title, description, rating, image }) => {
+
+  const formattedTitle = title.toLowerCase().replace(/ /g, "-");
   return (
+    <Link to={`/service/${formattedTitle}`}>
+
+    
     <div 
       className="bg-pink-50 group flex flex-col h-[300px] overflow-hidden transition-all duration-300 hover:shadow-lg hover:bg-rose-200 hover:cursor-pointer "
       data-aos="fade-up"
@@ -32,6 +39,7 @@ const ServiceCard = ({ id, title, description, rating, image }) => {
         </div> */}
       </div>
     </div>
+    </Link>
   );
 };
 

@@ -59,15 +59,24 @@ const Navbar = () => {
                         <ul className="space-y-2">
                           {items.map((item) => (
                             <li key={item}>
-                              <a href="#" className="block text-sm text-neutral-600 hover:text-neutral-900">
+                              <a href={`/service/${item.toLowerCase().replace(/ /g, "-")}`} className="block text-sm text-neutral-600 hover:text-neutral-900">
                                 {item}
                               </a>
                             </li>
                           ))}
                         </ul>
+                        
                       </div>
+                      
                     ))}
                   </div>
+                  <a href='/services'>
+                    <button
+                      className="w-50 right-8 bottom-10 absolute hidden md:inline-flex bg-zinc-900 text-[white] font-serif font-light hover:bg-zinc-700 px-4 py-2 text-sm font-medium transition-colors cursor-pointer" 
+                    >
+                      Explore All Services
+                    </button>
+                  </a>
                 </div>
               )}
             </div>
@@ -153,9 +162,17 @@ const Navbar = () => {
             About
           </a>
           <div className="px-3 py-2">
+          
+            <a href='/services'>
+            <button
+              className="w-full bg-gray-900 px-4 py-2 text-[white] text-sm font-serif transition-colors"
+            >
+              Explore All Services
+            </button>
+            </a>
             <a href='/appointmentbooking'>
             <button
-              className="w-full bg-rose-100 text-rose-900 hover:bg-rose-200 px-4 py-2 rounded-md text-sm font-medium transition-colors"
+              className="w-full bg-gray-900 my-2 px-4 py-2 text-[white] text-sm font-serif transition-colors"
             >
               Book Appointment
             </button>

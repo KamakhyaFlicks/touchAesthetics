@@ -1,0 +1,600 @@
+[
+  {
+    "id": 1,
+    "title": "Carbon Laser",
+    "category": "skin",
+    "description": "Carbon Laser is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Carbon Laser treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/carbon-laser-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/carbon-laser-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Carbon Laser.",
+        "image": "/images/services/carbon-laser-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Hydra Facial",
+    "category": "skin",
+    "description": "Hydra Facial is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Hydra Facial treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/hydra-facial-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/hydra-facial-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hydra Facial.",
+        "image": "/images/services/hydra-facial-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Acne Treatment",
+    "category": "skin",
+    "description": "Acne Treatment is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Acne Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/acne-treatment-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/acne-treatment-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Acne Treatment.",
+        "image": "/images/services/acne-treatment-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chemical Peels",
+    "category": "skin",
+    "description": "Chemical Peels is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Chemical Peels treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/chemical-peels-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/chemical-peels-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Chemical Peels.",
+        "image": "/images/services/chemical-peels-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Hair Loss",
+    "category": "hair",
+    "description": "Hair Loss is a popular treatment under our hair care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Hair Loss treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/hair-loss-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/hair-loss-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Loss.",
+        "image": "/images/services/hair-loss-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Laser Tattoo Removal",
+    "category": "laser",
+    "description": "Laser Tattoo Removal is a popular treatment under our laser care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Laser Tattoo Removal treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/laser-tattoo-removal-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/laser-tattoo-removal-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Laser Tattoo Removal.",
+        "image": "/images/services/laser-tattoo-removal-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Mole Removal",
+    "category": "skin",
+    "description": "Mole Removal is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Mole Removal treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/mole-removal-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/mole-removal-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Mole Removal.",
+        "image": "/images/services/mole-removal-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Hair Reduction",
+    "category": "laser",
+    "description": "Hair Reduction is a popular treatment under our laser care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Hair Reduction treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/hair-reduction-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/hair-reduction-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Reduction.",
+        "image": "/images/services/hair-reduction-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Skin Booster",
+    "category": "skin",
+    "description": "Skin Booster is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Skin Booster treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/skin-booster-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/skin-booster-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Skin Booster.",
+        "image": "/images/services/skin-booster-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Filler",
+    "category": "skin",
+    "description": "Filler is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Filler treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/filler-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/filler-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Filler.",
+        "image": "/images/services/filler-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Keratin Hair Treatment",
+    "category": "hair",
+    "description": "Keratin Hair Treatment is a popular treatment under our hair care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Keratin Hair Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/keratin-hair-treatment-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/keratin-hair-treatment-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Keratin Hair Treatment.",
+        "image": "/images/services/keratin-hair-treatment-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Hair Color & Highlights",
+    "category": "hair",
+    "description": "Hair Color & Highlights is a popular treatment under our hair care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Hair Color & Highlights treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/hair-color-&-highlights-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/hair-color-&-highlights-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Color & Highlights.",
+        "image": "/images/services/hair-color-&-highlights-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Scalp Treatment",
+    "category": "hair",
+    "description": "Scalp Treatment is a popular treatment under our hair care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Scalp Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/scalp-treatment-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/scalp-treatment-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Scalp Treatment.",
+        "image": "/images/services/scalp-treatment-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Botox",
+    "category": "skin",
+    "description": "Botox is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Botox treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/botox-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/botox-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Botox.",
+        "image": "/images/services/botox-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Dermal Fillers",
+    "category": "skin",
+    "description": "Dermal Fillers is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Dermal Fillers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/dermal-fillers-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/dermal-fillers-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Dermal Fillers.",
+        "image": "/images/services/dermal-fillers-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Thread-lifts",
+    "category": "skin",
+    "description": "Thread-lifts is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Thread-lifts treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/thread-lifts-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/thread-lifts-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Thread-lifts.",
+        "image": "/images/services/thread-lifts-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Removes Deep Wrinkles & Dark Rings",
+    "category": "skin",
+    "description": "Removes Deep Wrinkles & Dark Rings is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Removes Deep Wrinkles & Dark Rings treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Removes Deep Wrinkles & Dark Rings.",
+        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Removes Acne Scars & Stretch Marks",
+    "category": "skin",
+    "description": "Removes Acne Scars & Stretch Marks is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Removes Acne Scars & Stretch Marks treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/removes-acne-scars-&-stretch-marks-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/removes-acne-scars-&-stretch-marks-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Removes Acne Scars & Stretch Marks.",
+        "image": "/images/services/removes-acne-scars-&-stretch-marks-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Overall Skin Rejuvenation",
+    "category": "skin",
+    "description": "Overall Skin Rejuvenation is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Overall Skin Rejuvenation treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/overall-skin-rejuvenation-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/overall-skin-rejuvenation-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Overall Skin Rejuvenation.",
+        "image": "/images/services/overall-skin-rejuvenation-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Lasers For Skin Rejuvenation",
+    "category": "laser",
+    "description": "Lasers For Skin Rejuvenation is a popular treatment under our laser care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Lasers For Skin Rejuvenation treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/lasers-for-skin-rejuvenation-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/lasers-for-skin-rejuvenation-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Lasers For Skin Rejuvenation.",
+        "image": "/images/services/lasers-for-skin-rejuvenation-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Microdermabrasion",
+    "category": "skin",
+    "description": "Microdermabrasion is a popular treatment under our skin care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Microdermabrasion treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/microdermabrasion-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/microdermabrasion-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Microdermabrasion.",
+        "image": "/images/services/microdermabrasion-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Ablative Lasers",
+    "category": "laser",
+    "description": "Ablative Lasers is a popular treatment under our laser care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Ablative Lasers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/ablative-lasers-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/ablative-lasers-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Ablative Lasers.",
+        "image": "/images/services/ablative-lasers-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Non-Ablative Lasers",
+    "category": "laser",
+    "description": "Non-Ablative Lasers is a popular treatment under our laser care range. It helps restore your natural look and boosts confidence.",
+    "descriptions": [
+      {
+        "description": "Non-Ablative Lasers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
+        "image": "/images/services/non-ablative-lasers-1.jpg"
+      },
+      {
+        "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
+        "image": "/images/services/non-ablative-lasers-2.jpg"
+      },
+      {
+        "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Non-Ablative Lasers.",
+        "image": "/images/services/non-ablative-lasers-3.jpg"
+      }
+    ],
+    "process": [
+      "Consultation and skin/hair analysis",
+      "Customised treatment application",
+      "Cooling or soothing therapy",
+      "Post-treatment care and follow-up"
+    ]
+  }
+]

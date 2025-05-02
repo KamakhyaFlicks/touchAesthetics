@@ -21,17 +21,17 @@ const services = [
   },
   {
     id: 3,
-    title: 'Microdermabrasion',
+    title: 'Carbon Laser Peel',
     description: 'Exfoliating treatment that reveals fresher, younger-looking skin.',
     rating: 4.7,
-    image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1470&auto=format&fit=crop'
+    image: 'https://images.pexels.com/photos/4586750/pexels-photo-4586750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     id: 4,
     title: 'Hair Color & Highlights',
     description: 'Custom color services to enhance your natural beauty.',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1469&auto=format&fit=crop'
+    image: 'https://images.pexels.com/photos/3356211/pexels-photo-3356211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
     id: 5,
@@ -49,17 +49,17 @@ const services = [
   },
   {
     id: 7,
-    title: 'LED Light Therapy',
-    description: 'Non-invasive treatment that promotes collagen production and reduces inflammation.',
+    title: 'Laser Tattoo Removal',
+    description: 'Advanced laser technology to safely and effectively remove unwanted tattoos.',
     rating: 4.5,
-    image: 'https://images.unsplash.com/photo-1570554886111-e80fcca6a029?q=80&w=1470&auto=format&fit=crop'
+    image: 'https://img.freepik.com/premium-photo/side-view-man-holding-hands_1048944-13190652.jpg?w=740'
   },
   {
     id: 8,
-    title: 'Brazilian Blowout',
-    description: 'Professional smoothing treatment that eliminates frizz for up to 12 weeks.',
+    title: 'Skin Booster',
+    description: 'Professional smoothing treatment that eliminates dullness for up to 12 weeks.',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1469&auto=format&fit=crop'
+    image: 'https://img.freepik.com/free-photo/beautician-doing-filler-injection-female-client_23-2148875477.jpg?ga=GA1.1.1122440598.1745495929&semt=ais_hybrid&w=740'
   }
 ];
 
@@ -103,6 +103,7 @@ const ServicesSection = () => {
               image={service.image}
             />
           ))}
+          <a href='/services'>
           <button 
             className="absolute right-1 -bottom-10 mt-4 md:mt-0 flex items-center gap-2 group hover:opacity-80 transition-all duration-300"
             data-aos="fade-left"
@@ -110,6 +111,7 @@ const ServicesSection = () => {
             <span className="font-serif font-light">Explore More</span>
             <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 " />
           </button>
+          </a>
         </div>
       </div>
     </section>

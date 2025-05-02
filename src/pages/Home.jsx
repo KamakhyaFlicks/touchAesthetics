@@ -7,6 +7,8 @@ import OurVision from '../components/home/OurVision'
 import TreatmentsSection from '../components/home/TreatmentsSection'
 import ServicesSection from '../components/home/ServicesSection'
 import TreatmentProcess from '../components/home/TreatmentProcess'
+import ServiceDetails from './ServiceDetails'
+// import Services from './Services'
 // import ServicesSection from '../components/home/ServicesPreview'
 function Home() {
   return (
@@ -51,7 +53,8 @@ function Home() {
           </div>
         </div>
       </div>
-        </div>
+    </div>
+
     </>
   )
 }
