@@ -7,15 +7,15 @@
     "descriptions": [
       {
         "description": "Carbon Laser treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/carbon-laser-1.jpg"
+        "image": "https://images.pexels.com/photos/7446659/pexels-photo-7446659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/carbon-laser-2.jpg"
+        "image": "https://images.unsplash.com/photo-1541752857837-f8a0154fd092?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Carbon Laser.",
-        "image": "/images/services/carbon-laser-3.jpg"
+        "image": "https://cdn.pixabay.com/photo/2019/09/16/17/18/spa-4481538_1280.jpg"
       }
     ],
     "process": [
@@ -33,15 +33,15 @@
     "descriptions": [
       {
         "description": "Hydra Facial treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/hydra-facial-1.jpg"
+        "image": "https://images.pexels.com/photos/4586741/pexels-photo-4586741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/hydra-facial-2.jpg"
+        "image": "https://images.pexels.com/photos/3212164/pexels-photo-3212164.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hydra Facial.",
-        "image": "/images/services/hydra-facial-3.jpg"
+        "image": "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -59,15 +59,15 @@
     "descriptions": [
       {
         "description": "Acne Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/acne-treatment-1.jpg"
+        "image": "https://images.pexels.com/photos/6475987/pexels-photo-6475987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/acne-treatment-2.jpg"
+        "image": "https://images.pexels.com/photos/28783928/pexels-photo-28783928/free-photo-of-relaxed-woman-receiving-facial-skin-treatment.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2s"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Acne Treatment.",
-        "image": "/images/services/acne-treatment-3.jpg"
+        "image": "https://images.pexels.com/photos/3738355/pexels-photo-3738355.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -85,15 +85,15 @@
     "descriptions": [
       {
         "description": "Chemical Peels treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/chemical-peels-1.jpg"
+        "image": "https://images.pexels.com/photos/10192208/pexels-photo-10192208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/chemical-peels-2.jpg"
+        "image": "https://images.pexels.com/photos/7582554/pexels-photo-7582554.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Chemical Peels.",
-        "image": "/images/services/chemical-peels-3.jpg"
+        "image": "https://images.pexels.com/photos/6663363/pexels-photo-6663363.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       }
     ],
     "process": [
@@ -111,15 +111,15 @@
     "descriptions": [
       {
         "description": "Hair Loss treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/hair-loss-1.jpg"
+        "image": "https://images.pexels.com/photos/29555480/pexels-photo-29555480/free-photo-of-professional-haircut-session-in-sunlit-salon.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/hair-loss-2.jpg"
+        "image": "https://images.pexels.com/photos/973401/pexels-photo-973401.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Loss.",
-        "image": "/images/services/hair-loss-3.jpg"
+        "image": "https://images.pexels.com/photos/3284697/pexels-photo-3284697.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -137,15 +137,15 @@
     "descriptions": [
       {
         "description": "Laser Tattoo Removal treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/laser-tattoo-removal-1.jpg"
+        "image": "https://images.pexels.com/photos/12556702/pexels-photo-12556702.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/laser-tattoo-removal-2.jpg"
+        "image": "https://images.pexels.com/photos/16032366/pexels-photo-16032366/free-photo-of-laser-hair-removal-in-close-up.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Laser Tattoo Removal.",
-        "image": "/images/services/laser-tattoo-removal-3.jpg"
+        "image": "https://images.pexels.com/photos/6763570/pexels-photo-6763570.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -163,15 +163,15 @@
     "descriptions": [
       {
         "description": "Mole Removal treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/mole-removal-1.jpg"
+        "image": "https://images.pexels.com/photos/7108173/pexels-photo-7108173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/mole-removal-2.jpg"
+        "image": "https://images.pexels.com/photos/7108260/pexels-photo-7108260.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Mole Removal.",
-        "image": "/images/services/mole-removal-3.jpg"
+        "image": "https://images.pexels.com/photos/19239092/pexels-photo-19239092/free-photo-of-laser-hair-removal-in-the-beauty-salon-woman-having-professional-laser-epilation-procedure-of-arm.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -189,15 +189,15 @@
     "descriptions": [
       {
         "description": "Hair Reduction treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/hair-reduction-1.jpg"
+        "image": "https://images.pexels.com/photos/29021130/pexels-photo-29021130/free-photo-of-professional-laser-hair-removal-procedure.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/hair-reduction-2.jpg"
+        "image": "https://images.pexels.com/photos/29021128/pexels-photo-29021128/free-photo-of-professional-laser-hair-removal-treatment-session.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Reduction.",
-        "image": "/images/services/hair-reduction-3.jpg"
+        "image": "https://images.pexels.com/photos/16100096/pexels-photo-16100096/free-photo-of-laser-hair-removal.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -215,15 +215,15 @@
     "descriptions": [
       {
         "description": "Skin Booster treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/skin-booster-1.jpg"
+        "image": "https://images.pexels.com/photos/8830485/pexels-photo-8830485.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/skin-booster-2.jpg"
+        "image": "https://images.pexels.com/photos/7317034/pexels-photo-7317034.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Skin Booster.",
-        "image": "/images/services/skin-booster-3.jpg"
+        "image": "https://images.pexels.com/photos/5207030/pexels-photo-5207030.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -241,15 +241,15 @@
     "descriptions": [
       {
         "description": "Filler treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/filler-1.jpg"
+        "image": "https://images.pexels.com/photos/7581583/pexels-photo-7581583.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/filler-2.jpg"
+        "image": "https://images.pexels.com/photos/27666913/pexels-photo-27666913/free-photo-of-lips-female.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Filler.",
-        "image": "/images/services/filler-3.jpg"
+        "image": "https://images.pexels.com/photos/31613321/pexels-photo-31613321/free-photo-of-professional-cosmetic-treatment-session.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -267,15 +267,15 @@
     "descriptions": [
       {
         "description": "Keratin Hair Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/keratin-hair-treatment-1.jpg"
+        "image": "https://images.pexels.com/photos/28994394/pexels-photo-28994394/free-photo-of-applying-hair-serum-to-red-curls-in-close-up.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/keratin-hair-treatment-2.jpg"
+        "image": "https://images.pexels.com/photos/7755557/pexels-photo-7755557.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Keratin Hair Treatment.",
-        "image": "/images/services/keratin-hair-treatment-3.jpg"
+        "image": "https://images.pexels.com/photos/6006257/pexels-photo-6006257.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -293,15 +293,15 @@
     "descriptions": [
       {
         "description": "Hair Color & Highlights treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/hair-color-&-highlights-1.jpg"
+        "image": "https://images.pexels.com/photos/8468127/pexels-photo-8468127.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/hair-color-&-highlights-2.jpg"
+        "image": "https://images.pexels.com/photos/18614262/pexels-photo-18614262/free-photo-of-two-blonde-hair-extensions-on-a-pink-background.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Hair Color & Highlights.",
-        "image": "/images/services/hair-color-&-highlights-3.jpg"
+        "image": "https://images.pexels.com/photos/10483489/pexels-photo-10483489.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -319,15 +319,15 @@
     "descriptions": [
       {
         "description": "Scalp Treatment treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/scalp-treatment-1.jpg"
+        "image": "https://images.pexels.com/photos/28994390/pexels-photo-28994390/free-photo-of-applying-hair-serum-with-precision-dropper.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/scalp-treatment-2.jpg"
+        "image": "https://images.pexels.com/photos/20092123/pexels-photo-20092123/free-photo-of-a-man-getting-his-hair-washed-by-a-hairdresser.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Scalp Treatment.",
-        "image": "/images/services/scalp-treatment-3.jpg"
+        "image": "https://images.pexels.com/photos/7320791/pexels-photo-7320791.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -345,15 +345,15 @@
     "descriptions": [
       {
         "description": "Botox treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/botox-1.jpg"
+        "image": "https://images.pexels.com/photos/4586708/pexels-photo-4586708.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/botox-2.jpg"
+        "image": "https://images.pexels.com/photos/3985311/pexels-photo-3985311.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Botox.",
-        "image": "/images/services/botox-3.jpg"
+        "image": "https://images.pexels.com/photos/7581577/pexels-photo-7581577.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -371,15 +371,15 @@
     "descriptions": [
       {
         "description": "Dermal Fillers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/dermal-fillers-1.jpg"
+        "image": "https://images.pexels.com/photos/6619478/pexels-photo-6619478.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/dermal-fillers-2.jpg"
+        "image": "https://images.pexels.com/photos/6619489/pexels-photo-6619489.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Dermal Fillers.",
-        "image": "/images/services/dermal-fillers-3.jpg"
+        "image": "https://images.pexels.com/photos/3762639/pexels-photo-3762639.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -397,15 +397,15 @@
     "descriptions": [
       {
         "description": "Thread-lifts treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/thread-lifts-1.jpg"
+        "image": "https://images.pexels.com/photos/5178023/pexels-photo-5178023.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/thread-lifts-2.jpg"
+        "image": "https://images.pexels.com/photos/6662315/pexels-photo-6662315.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Thread-lifts.",
-        "image": "/images/services/thread-lifts-3.jpg"
+        "image": "https://images.pexels.com/photos/5177995/pexels-photo-5177995.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -423,15 +423,15 @@
     "descriptions": [
       {
         "description": "Removes Deep Wrinkles & Dark Rings treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-1.jpg"
+        "image": "https://images.pexels.com/photos/7581587/pexels-photo-7581587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-2.jpg"
+        "image": "https://images.pexels.com/photos/6874474/pexels-photo-6874474.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Removes Deep Wrinkles & Dark Rings.",
-        "image": "/images/services/removes-deep-wrinkles-&-dark-rings-3.jpg"
+        "image": "https://images.pexels.com/photos/7581591/pexels-photo-7581591.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
       }
     ],
     "process": [
@@ -449,15 +449,15 @@
     "descriptions": [
       {
         "description": "Removes Acne Scars & Stretch Marks treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/removes-acne-scars-&-stretch-marks-1.jpg"
+        "image": "https://images.pexels.com/photos/6475986/pexels-photo-6475986.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/removes-acne-scars-&-stretch-marks-2.jpg"
+        "image": "https://images.pexels.com/photos/6476085/pexels-photo-6476085.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Removes Acne Scars & Stretch Marks.",
-        "image": "/images/services/removes-acne-scars-&-stretch-marks-3.jpg"
+        "image": "https://images.pexels.com/photos/6476077/pexels-photo-6476077.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -475,15 +475,15 @@
     "descriptions": [
       {
         "description": "Overall Skin Rejuvenation treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/overall-skin-rejuvenation-1.jpg"
+        "image": "https://images.pexels.com/photos/3212164/pexels-photo-3212164.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/overall-skin-rejuvenation-2.jpg"
+        "image": "https://images.pexels.com/photos/14996840/pexels-photo-14996840/free-photo-of-woman-getting-a-face-mask-done.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Overall Skin Rejuvenation.",
-        "image": "/images/services/overall-skin-rejuvenation-3.jpg"
+        "image": "https://images.pexels.com/photos/15866050/pexels-photo-15866050/free-photo-of-woman-at-beautician.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -501,15 +501,15 @@
     "descriptions": [
       {
         "description": "Lasers For Skin Rejuvenation treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/lasers-for-skin-rejuvenation-1.jpg"
+        "image": "https://images.pexels.com/photos/4586751/pexels-photo-4586751.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/lasers-for-skin-rejuvenation-2.jpg"
+        "image": "https://images.pexels.com/photos/2447525/pexels-photo-2447525.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Lasers For Skin Rejuvenation.",
-        "image": "/images/services/lasers-for-skin-rejuvenation-3.jpg"
+        "image": "https://images.pexels.com/photos/7789655/pexels-photo-7789655.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -527,15 +527,15 @@
     "descriptions": [
       {
         "description": "Microdermabrasion treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/microdermabrasion-1.jpg"
+        "image": "https://images.pexels.com/photos/21391399/pexels-photo-21391399/free-photo-of-young-woman-performing-cosmetic-treatment-in-spa-salon.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/microdermabrasion-2.jpg"
+        "image": "https://media.istockphoto.com/id/533555823/photo/microdermabrasion-treatment.jpg?b=1&s=612x612&w=0&k=20&c=vvtL3GifGbfcSHiErexwCiS166akr4FWLXI1ZtSmgbY="
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Microdermabrasion.",
-        "image": "/images/services/microdermabrasion-3.jpg"
+        "image": "https://media.istockphoto.com/id/501398614/photo/face-skin-care-facial-hydro-microdermabrasion-peeling-treatment.jpg?b=1&s=612x612&w=0&k=20&c=0aW0MbJGaktOyNLBMfNJEb_hDYXsxkB0Fvhq-aJNDOM="
       }
     ],
     "process": [
@@ -553,15 +553,15 @@
     "descriptions": [
       {
         "description": "Ablative Lasers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/ablative-lasers-1.jpg"
+        "image": "https://images.pexels.com/photos/5069611/pexels-photo-5069611.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/ablative-lasers-2.jpg"
+        "image": "https://images.pexels.com/photos/4586727/pexels-photo-4586727.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Ablative Lasers.",
-        "image": "/images/services/ablative-lasers-3.jpg"
+        "image": "https://images.pexels.com/photos/14438367/pexels-photo-14438367.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [
@@ -579,15 +579,15 @@
     "descriptions": [
       {
         "description": "Non-Ablative Lasers treatment provides immediate visible results by targeting the root cause of the issue, enhancing both skin texture and tone.",
-        "image": "/images/services/non-ablative-lasers-1.jpg"
+        "image": "https://images.pexels.com/photos/16032298/pexels-photo-16032298/free-photo-of-device-for-laser-hair-removal.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "It is especially beneficial for those dealing with persistent concerns and seeking a non-invasive yet highly effective solution.",
-        "image": "/images/services/non-ablative-lasers-2.jpg"
+        "image": "https://images.pexels.com/photos/7789640/pexels-photo-7789640.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "description": "Clients report a noticeable improvement in clarity, smoothness, and confidence after undergoing Non-Ablative Lasers.",
-        "image": "/images/services/non-ablative-lasers-3.jpg"
+        "image": "https://images.pexels.com/photos/5069506/pexels-photo-5069506.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ],
     "process": [

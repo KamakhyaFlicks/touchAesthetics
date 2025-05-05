@@ -32,7 +32,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 w-48">
+          <a href='/'>
             <img src={logo} className="w-full "/>
+          </a>
           </div>
 
           {/* Desktop Navigation */}
@@ -110,7 +112,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-200"
             >
-              <Menu className="h-6 w-6" />
+              <Menu className="h-6 w-6"/>
             </button>
           </div>
         </div>

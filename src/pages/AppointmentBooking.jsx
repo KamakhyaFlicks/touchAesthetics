@@ -39,7 +39,7 @@ export default function AppointmentBooking() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
+
     // Prepare the template parameters
     const templateParams = {
       to_email: "toucheaesthetics0@gmail.com",
@@ -47,10 +47,10 @@ export default function AppointmentBooking() {
       from_email: formData.email,
       phone: formData.phone,
       treatment: formData.treatmentType === 'facial' ? 'Facial Treatment' :
-                formData.treatmentType === 'hairSpa' ? 'Hair Spa' :
-                formData.treatmentType === 'massage' ? 'Relaxing Massage' :
-                formData.treatmentType === 'manicure' ? 'Manicure & Pedicure' :
-                formData.treatmentType === 'skinConsultation' ? 'Skin Consultation' :
+        formData.treatmentType === 'hairSpa' ? 'Hair Spa' :
+          formData.treatmentType === 'massage' ? 'Relaxing Massage' :
+            formData.treatmentType === 'manicure' ? 'Manicure & Pedicure' :
+              formData.treatmentType === 'skinConsultation' ? 'Skin Consultation' :
                 formData.treatmentType === 'hairConsultation' ? 'Hair Consultation' : '',
       date: formData.date,
       time: formData.time,
@@ -63,10 +63,10 @@ export default function AppointmentBooking() {
         'template_b43pjzm',
         templateParams
       );
-      
+
       console.log('Email sent successfully:', result.text);
       setSubmitStatus('success');
-      
+
       // Reset form after successful submission
       setFormData({
         firstName: '',
@@ -97,7 +97,7 @@ export default function AppointmentBooking() {
   ];
 
   const timeSlots = [
-    '9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', 
+    '9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM',
     '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM'
   ];
 
@@ -116,21 +116,21 @@ export default function AppointmentBooking() {
         }
         
         .animate-fadeIn {
-          animation: fadeIn 0.6s ease-out forwards;
+          animation: fadeIn 0.8s ease-out forwards;
         }
       `}</style>
-      
+
       <div className={`w-full max-w-4xl bg-white shadow sm:rounded ${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '150ms' }}>
         <div className="flex flex-col md:flex-row">
           {/* Left Column - Brief Info */}
           <div className={`md:w-1/3 p-6 bg-pink-50 ${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '300ms' }}>
             <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-serif font-light text-gray-800 mb-6 leading-tight text-zinc-800 font-serif font-light text-gray-800  leading-tight mb-6">Book Your Treatment</h1>
-            
+
             <div className="space-y-4 mb-6">
               {treatments.map((treatment, index) => (
-                <div 
-                  key={treatment.id} 
-                  className={`flex items-center ${animate ? 'animate-fadeIn' : 'opacity-0'}`} 
+                <div
+                  key={treatment.id}
+                  className={`flex items-center ${animate ? 'animate-fadeIn' : 'opacity-0'}`}
                   style={{ animationDelay: `${400 + index * 100}ms` }}
                 >
                   <div className="w-1 h-1 bg-gray-400 rounded-full mr-2"></div>
@@ -138,13 +138,13 @@ export default function AppointmentBooking() {
                 </div>
               ))}
             </div>
-            
+
             <div className={`text-gray-900 text-sm mt-auto ${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '800ms' }}>
               <p>Need assistance?</p>
               <p className="font-medium">(+91) 9220546827</p>
             </div>
           </div>
-          
+
           {/* Right Column - Form */}
           <div className="md:w-2/3 p-6">
             <div className="space-y-4">
@@ -174,7 +174,7 @@ export default function AppointmentBooking() {
                   />
                 </div>
               </div>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className={`${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '450ms' }}>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-600 mb-1">Email</label>
@@ -201,7 +201,7 @@ export default function AppointmentBooking() {
                   />
                 </div>
               </div>
-              
+
               <div className={`${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '550ms' }}>
                 <label htmlFor="treatmentType" className="block text-sm font-medium text-gray-600 mb-1">Treatment</label>
                 <select
@@ -218,7 +218,7 @@ export default function AppointmentBooking() {
                   ))}
                 </select>
               </div>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className={`${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '600ms' }}>
                   <label htmlFor="date" className="block text-sm font-medium text-gray-600 mb-1">Date</label>
@@ -249,7 +249,7 @@ export default function AppointmentBooking() {
                   </select>
                 </div>
               </div>
-              
+
               <div className={`${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '700ms' }}>
                 <label htmlFor="notes" className="block text-sm font-medium text-gray-600 mb-1">Notes (optional)</label>
                 <textarea
@@ -262,7 +262,7 @@ export default function AppointmentBooking() {
                   placeholder="Any special requests..."
                 />
               </div>
-              
+
               <div className={`flex items-start ${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '750ms' }}>
                 <div className="flex items-center h-5">
                   <input
@@ -281,7 +281,7 @@ export default function AppointmentBooking() {
                   </label>
                 </div>
               </div>
-              
+
               <div className={`${animate ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '800ms' }}>
                 <button
                   onClick={handleSubmit}
@@ -291,19 +291,19 @@ export default function AppointmentBooking() {
                   {loading ? 'Processing...' : 'Book Appointment'}
                 </button>
               </div>
-              
+
               {submitStatus === 'success' && (
                 <div className="text-center p-3 text-sm text-green-600 bg-green-50 mt-4">
                   Your appointment has been scheduled. We'll be in touch shortly.
                 </div>
               )}
-              
+
               {submitStatus === 'error' && (
                 <div className="text-center p-3 text-sm text-red-600 bg-red-50 mt-4">
                   There was an error scheduling your appointment. Please try again.
                 </div>
               )}
-              
+
               <p className="text-center text-xs text-gray-500 mt-4 opacity-70">
                 We'll confirm your appointment within 24 hours
               </p>

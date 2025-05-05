@@ -129,7 +129,7 @@ export default function Contact() {
   const contactInfo = [
     {
       title: "Call",
-      details: "+91 9220546827",
+      details: "+91 92205 46827",
       icon: "☎",
     },
     {
@@ -299,7 +299,7 @@ export default function Contact() {
                 <h3 className="text-sm font-medium text-zinc-800 mb-3">Hours</h3>
                 <div className="space-y-1 text-sm text-zinc-600">
                   <div className="flex justify-between">
-                    <span>Mon - Sat</span>
+                    <span>Tues - Sat</span>
                     <span>9:00 AM - 8:00 PM</span>
                   </div>
                   <div className="flex justify-between">

@@ -4,6 +4,8 @@ import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { BsYoutube } from "react-icons/bs";
+import { FaSquareThreads } from "react-icons/fa6";
+
 
 const Footer = () => {
   const footerRef = useRef(null);
@@ -50,7 +52,7 @@ const Footer = () => {
   const socialIcons = [
     { name: "Instagram", icon: <BsInstagram/>, link: "https://www.instagram.com/toucheaesthetics/"},
     { name: "Facebook", icon: <BsFacebook/>, link: "#" },
-    { name: "Twitter", icon: <FaSquareXTwitter/>, link:"#" },
+    { name: "Thread", icon: <FaSquareThreads/>, link:"https://www.threads.com/@toucheaesthetics" },
     { name: "YouTube", icon: <BsYoutube/>, link:"https://www.youtube.com/channel/UCwB4l3yV2IOEJvz75bf7onA" },
   ];
 

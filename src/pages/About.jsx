@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect, useRef } from "react"
 import contact from "../assets/images/contact.jpg"
 import CEO from "../assets/images/CEO.jpg";

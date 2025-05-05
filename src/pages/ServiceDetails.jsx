@@ -28,10 +28,10 @@ const ServiceDetailSection = ({ title, subtitle, centered = false, delay = 0 }) 
       transition={{ duration: 0.6, delay }}
       className={centered ? "text-center" : ""}
     >
-      <h2 className="text-2xl md:text-3xl font-serif font-light mb-3 text-gray-800">
+      <h2 className="font-serif font-light text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-serif font-light text-gray-800 mb-6 leading-tight">
         {title}
       </h2>
-      <p className="text-gray-600 max-w-3xl">
+      <p className="text-md text-gray-600 max-w-3xl">
         {subtitle}
       </p>
     </motion.div>
@@ -100,10 +100,10 @@ const ServiceDetails = () => {
           
           <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="flex-1">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-gray-800 mb-4">
+              <h1 className="font-serif font-light text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-serif font-light text-gray-800 mb-6 leading-tight">
                 {service.title}
               </h1>
-              <p className="text-gray-600 md:text-lg mb-6">
+              <p className="text-gray-600 md:text-md mb-6">
                 {service.description}
               </p>
               {service.category && (
@@ -111,15 +111,24 @@ const ServiceDetails = () => {
                   {service.category.charAt(0).toUpperCase() + service.category.slice(1)}
                 </div>
               )}
+              <a href='/appointmentbooking'>
+                    <button
+                      className="block w-full md:w-1/2 bg-zinc-900 text-[white] font-serif my-8 font-light hover:bg-zinc-700 px-4 py-2 text-md font-medium transition-colors cursor-pointer" 
+                    >
+                      Book Appointment
+                    </button>
+                  </a>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-2/5 aspect-[4/3] overflow-hidden rounded-lg shadow-md">
+            <div className="flex align-center flex-col w-full md:w-1/2 lg:w-2/5 aspect-[4/3] overflow-hidden  shadow-md">
               <img
                 src={service.descriptions[0].image}
                 alt={service.title}
                 className="w-full h-full object-cover"
               />
+              
             </div>
+            
           </div>
         </div>
       </motion.section>
@@ -179,9 +188,11 @@ const ServiceDetails = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="mt-8"
           >
-            <button className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-full transition-colors duration-300 shadow-sm hover:shadow-md">
+          <a href="/appointmentbooking">
+            <button className="bg-gray-900 text-[white] hover:bg-gray-600 text-white px-8 py-3  transition-colors duration-300 shadow-sm hover:shadow-md cursor-pointer">
               Book Appointment
             </button>
+          </a>
           </motion.div>
         </div>
       </section>
@@ -209,7 +220,7 @@ const BenefitItem = ({ item, index, serviceName }) => {
         isEven ? "md:flex-row" : "md:flex-row-reverse"
       } gap-8 md:gap-12 items-center`}
     >
-      <div className="w-full md:w-1/2 aspect-[4/3] overflow-hidden rounded-lg shadow-md">
+      <div className="w-full md:w-100 aspect-[4/3] overflow-hidden shadow-md">
         <img
           src={item.image}
           alt={`${serviceName} benefit ${index + 1}`}
@@ -219,7 +230,7 @@ const BenefitItem = ({ item, index, serviceName }) => {
       
       <div className="w-full md:w-1/2">
         <div className="w-12 h-1 bg-rose-200 mb-6"></div>
-        <p className="text-gray-700 md:text-lg">
+        <p className="text-gray-700 md:text-md">
           {item.description}
         </p>
       </div>
